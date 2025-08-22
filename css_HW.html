@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_HomeWork</title>
+</head>
+<style>
+    body {
+        /*1. Change background color of the entire page. */
+        background-color: black;
+
+        /* 2. Set font family of the whole page to Arial.  */
+        font-family: Arial;
+        color: rgb(255, 251, 4);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        /* 3. Make all headings (h1-h6) uppercase.  */
+        text-transform: uppercase;
+
+        /* 7. Center align all headings.  */
+        text-align: center;
+    }
+
+    a {
+        /* 4. Set the color of all links to blue.  */
+        color: blue;
+
+        /* 5. Remove underline from all links.  */
+        text-decoration: none;
+    }
+
+    a:hover {
+        /* 6. Add underline only on hover to links. */
+        text-decoration: underline;
+    }
+
+    p {
+        /* 8. Justify text in paragraphs.  */
+        text-align: justify;
+
+        /* 11. Change font size of paragraphs to 18px. */
+        font-size: 18px;
+
+        /* 16. Add line height to paragraphs.  */
+        line-height: 50px;
+    }
+
+    #c {
+        /* 9. Give a specific <div> a background color using its id. */
+        background-color: red;
+        height: 200px;
+        width: 200px;
+    }
+
+    .multiple {
+        /* 10. Style multiple elements with same class to have padding and border. */
+        border: 1px solid yellow;
+        padding: 10px;
+        color: white;
+
+    }
+
+    .text {
+        /* 12. Make certain text bold using a class.  */
+        font-weight: bold;
+        color: wheat;
+    }
+
+    blockquote {
+        /*13. Italicize a quote inside <blockquote>.  */
+        font-style: italic;
+    }
+
+    .capi {
+        /* 14. Use text-transform to capitalize first letter of each word. */
+        text-transform: capitalize;
+    }
+
+    .spacing {
+        /* 15. Add letter spacing to a heading. */
+        letter-spacing: 10px;
+
+        /* 17. Use text-shadow to give heading a shadow. */
+        text-shadow: 0px 0px 20px red;
+    }
+
+    .back {
+        /* 18. Set a background image on the body.  */
+        background-image: url(Goa.jpeg);
+        height: 300px;
+
+        /* 19. Make background image cover entire viewport. */
+        background-size: cover;
+
+
+    }
+
+    img {
+        /* 20. Make an image responsive using max-width: 100%. */
+        max-width: 100%;
+        height: auto;
+
+        /* 21. Add border-radius to an image to make it circular.
+        28. Add border-radius to round the corners.   */
+        border-radius: 20px;
+
+        /* 22. Add a box shadow to an image. */
+        box-shadow: 0px 0px 20px red;
+
+        
+
+
+    }
+    .box
+    {
+        /* 23. Add margin around a box.  */
+        margin: 20px;
+
+        /* 24. Add padding inside a box.  */
+        padding: 10px;
+        border: 4px dotted rgb(255, 0, 0);
+        background-color: white;
+        height: 100px;
+    }
+    .box1
+    {
+        /* 25. Use different margin on top/bottom vs left/right. */
+         
+        background-color: rgb(255, 4, 4);
+        height: 100px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 30px;
+
+        /* 26. Give a box a solid border. 
+           27. Make a box with dashed or dotted border.  */
+            border: 2px dashed yellow;
+    }
+</style>
+
+<body>
+    <h1>Welcome To Practice Page</h1>
+    <h2>Welcome</h2>
+    <h3>My</h3>
+    <h4>Practice</h4>
+    <h5>Page</h5>
+    <h6>CSS</h6>
+
+    <a href="index.html">Click Me</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea numquam dolor commodi aperiam explicabo non eos rerum
+        repudiandae, illum magni id, eius sint, vel possimus incidunt maxime. Repellat, temporibus distinctio.</p>
+    <div id="c"></div>
+    </br>
+
+    <div class="multiple">
+        <p class="multiple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae expedita enim quasi
+            provident, assumenda quaerat voluptates hic iusto incidunt voluptatem sunt eveniet nam ducimus. Repellat
+            atque soluta quae deleniti voluptatum!</p>
+        <h1 class="multiple">Hello Everyone!!</h1>
+    </div>
+    <br><br>
+    <div class="text">Welcome</div>
+<hr>
+    <blockquote>Everyone</blockquote>
+<hr>
+    <div class="capi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam qui illo sequi neque in explicabo
+        eveniet nostrum corrupti, voluptas at et reiciendis maiores nam eius vero aut voluptates nobis consectetur?
+    </div>
+<hr>
+    <br><br>
+    <h1 class="spacing">Web Development</h1>
+    <hr>
+    <div class="back"></div>
+    <br><br>
+    <hr>
+    <img src="Goa.jpeg" alt="Loading">
+    <br><br>
+    <hr>
+    <div class="box"></div>
+    <hr>
+    <div class="box1"></div>
+</body>
+
+</html>
