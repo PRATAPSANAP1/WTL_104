@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 
 const app = express();
 app.use(express.json());
+app.use(express.static('.'));
 
 // Simple in-memory users (no database)
 let users = [];
@@ -71,4 +72,4 @@ app.get('/profile', auth, (req, res) => {
   });
 });
 
-app.listen(5000, () => console.log('Server on http://localhost:5000'));
+app.listen(5001, () => console.log('Server on http://localhost:5001'));
